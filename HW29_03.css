@@ -17,12 +17,14 @@
     background: aqua;
 
 }
+
 /* .child1:nth-child(2) {
     background: aqua;
 }
 .child1:nth-child(3) {
     background: aqua;
 } */
-/* .child1:hover {
-    ba
-} */
+.child1:nth-last-child(1) {
+    background: pink;
+
+}

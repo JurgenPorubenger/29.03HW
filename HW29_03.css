@@ -1,0 +1,28 @@
+.parrent {
+    display: flex;
+    margin: 0;
+    padding: 0; 
+    flex-wrap: wrap;
+    width: 156px;
+}
+.child1 {
+    /* float: left; */
+    height: 50px;
+    width: 50px;
+    border: 1px solid yellow;
+    background: olivedrab;
+}
+.child1:nth-child(-n+3) {
+    height: 100px;
+    background: aqua;
+
+}
+/* .child1:nth-child(2) {
+    background: aqua;
+}
+.child1:nth-child(3) {
+    background: aqua;
+} */
+/* .child1:hover {
+    ba
+} */
